@@ -18,6 +18,12 @@ public class DockerTestApplication {
         return "Hello Jenkins Test";
     }
 
+    @GetMapping("/hi")
+    public String hi(){
+        return "Hi Hi Jenkins Test";
+    }
+
+
     public static void main(String[] args) {
         SpringApplication.run(DockerTestApplication.class, args);
     }
