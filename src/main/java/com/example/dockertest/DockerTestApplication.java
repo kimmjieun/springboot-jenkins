@@ -6,23 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class DockerTestApplication {
-    @GetMapping("/")
-    public String hello(){
-        return "Hello Spring Boot";
-    }
-
-    @GetMapping("/test")
-    public String test(){
-        return "Hello Jenkins Test";
-    }
-
-    @GetMapping("/hi")
-    public String hi(){
-        return "Hi Hi Jenkins Test";
-    }
-
 
     public static void main(String[] args) {
         SpringApplication.run(DockerTestApplication.class, args);
