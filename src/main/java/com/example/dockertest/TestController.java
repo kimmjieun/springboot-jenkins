@@ -13,7 +13,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String test(){
-        return "Hello Jenkins Test";
+        return "Hello Jenkins Test 12:23";
     }
 
     @GetMapping("/hi")
