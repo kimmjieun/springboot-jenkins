@@ -20,4 +20,10 @@ public class TestController {
     public String hi(){
         return "Hi Hi Jenkins Test";
     }
+
+
+    @GetMapping("/test/second")
+    public String test2(){
+        return "Second Test";
+    }
 }
