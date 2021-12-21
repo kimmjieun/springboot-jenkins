@@ -26,4 +26,10 @@ public class TestController {
     public String test2(){
         return "Second Test";
     }
+
+
+    @GetMapping("/test/four")
+    public String test4(){
+        return "4th Test";
+    }
 }
